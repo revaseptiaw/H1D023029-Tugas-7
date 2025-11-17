@@ -127,10 +127,8 @@ List<TaskModel> tasks = [];
 
 
 ### Tampilan Aplikasi
-<img width="1365" height="686" alt="image" src="https://github.com/user-attachments/assets/32be24e2-f837-4fb6-bc5e-ff38dcb11113" />
 
 ### Halaman Form (form_data.dart)
-<img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/eb9d9b2a-6c14-43dd-a297-e497532cc7c8" />
+
 
 ### Halaman Tampil Data (tampil_data.dart)
-<img width="1364" height="678" alt="image" src="https://github.com/user-attachments/assets/9d20bf9a-3def-4372-b84a-d4e1cbda80ce" />
