@@ -195,6 +195,40 @@ ListTile(
 Penjelasan
 SideMenu adalah menu navigasi samping. Menu ini menampilkan avatar pengguna, username, versi aplikasi, dan beberapa opsi navigasi seperti Dashboard, Task List, Profile, Settings, serta tombol Logout.
 
+### 7. Profile Page
+📁 **`lib/pages/profile_page.dart`**
+
+```dart
+String _username = '';
+
+@override
+void initState() {
+  super.initState();
+  _loadUser();
+}
+
+Future<void> _loadUser() async {
+  _username = await LocalStorageService.username() ?? 'Pengguna';
+  setState(() {});
+}
+
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    appBar: AppBar(title: const Text('Profil')),
+    body: Center(
+      child: CircleAvatar(
+        radius: 40,
+        child: Text(_username.isNotEmpty ? _username[0].toUpperCase() : 'U'),
+      ),
+    ),
+  );
+}
+```
+
+Penjelasan: 
+Halaman profil menggunakan `StatefulWidget` untuk memuat username secara asynchronous dari `LocalStorageService`. Variabel `_username` menyimpan nama pengguna. Fungsi `_loadUser()` memanggil SharedPreferences untuk mendapatkan username dan memperbarui UI dengan `setState()`. Tampilan utama menggunakan `Scaffold` dan menampilkan avatar dengan inisial username di `CircleAvatar`. Halaman ini bersifat read-only dan hanya menampilkan informasi pengguna.
+
 
 ### Tampilan Aplikasi
 
