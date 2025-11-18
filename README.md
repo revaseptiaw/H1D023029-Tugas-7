@@ -230,10 +230,32 @@ Penjelasan:
 Halaman profil menggunakan `StatefulWidget` untuk memuat username secara asynchronous dari `LocalStorageService`. Variabel `_username` menyimpan nama pengguna. Fungsi `_loadUser()` memanggil SharedPreferences untuk mendapatkan username dan memperbarui UI dengan `setState()`. Tampilan utama menggunakan `Scaffold` dan menampilkan avatar dengan inisial username di `CircleAvatar`. Halaman ini bersifat read-only dan hanya menampilkan informasi pengguna.
 
 
-### Tampilan Aplikasi
+
+### Tampilan Splash screen (startup_page.dart) 
+<img width="1028" height="645" alt="image" src="https://github.com/user-attachments/assets/81e1c249-8d98-46e2-97f6-c82b505af3fd" />
+
+### Halaman Login (login_page.dart)
+<img width="1022" height="645" alt="image" src="https://github.com/user-attachments/assets/71fa41d2-229a-4fd9-9d5a-ad4ac05793e3" />
+
+### Halaman Dashboard utama (home_page.dart)
+<img width="1023" height="642" alt="image" src="https://github.com/user-attachments/assets/c53f9101-5b38-421f-8214-61ab0a201f1a" />
+
+### Tampilan SideMenu (side_menu.dart) 
+<img width="1024" height="649" alt="image" src="https://github.com/user-attachments/assets/a14d3324-3d02-4a41-8d7c-93d952841937" />
+
+### Halaman daftar tugas (task_list_page.dart)
+<img width="1019" height="641" alt="image" src="https://github.com/user-attachments/assets/1c91180b-7d5e-46d3-80b7-96abe1064e23" />
+
+<img width="1022" height="602" alt="image" src="https://github.com/user-attachments/assets/72123dfe-6f1c-49fe-9376-acde4734eab8" />
 
 
-### Halaman Form (form_data.dart)
+### Halaman Profile Pengguna (profile_page.dart)
+<img width="1023" height="642" alt="image" src="https://github.com/user-attachments/assets/d278e4d4-c20e-40ac-8abb-0551eb68a09d" />
+
+### Halaman Pengaturan tema (settings_page.dart)
+<img width="1025" height="647" alt="image" src="https://github.com/user-attachments/assets/806609e1-255a-41ed-b955-da5e4732839e" />
+
+### Halaman Dashboard setelah input tugas
+<img width="1021" height="639" alt="image" src="https://github.com/user-attachments/assets/d73a6d17-fd4c-4bb5-8702-3ed9be8c1cbe" />
 
 
-### Halaman Tampil Data (tampil_data.dart)
