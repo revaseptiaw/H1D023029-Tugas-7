@@ -35,7 +35,8 @@ Aplikasi ini terdiri dari beberapa halaman utama:
 - settings_page.dart: Halaman pengaturan tema.
 
 - profile_page.dart: Halaman profil pengguna.
-- 
+
+  
 ## Penjelasan Kode
 
 ### 1. Model Task
